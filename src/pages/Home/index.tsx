@@ -45,7 +45,7 @@ function Home() {
         <motion.img
           src={logo}
           alt="Ghost Logo"
-          className="w-32 h-32 md:w-48 md:h-48 mb-8 bg-transparent"
+          className="w-32 h-32 md:w-48 md:h-48 mb-8 bg-transparent cursor-pointer"
           variants={logoVariants}
           initial="initial"
           animate="animate"
